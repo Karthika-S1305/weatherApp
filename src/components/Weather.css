@@ -2,11 +2,29 @@
     place-self: center;
     padding: 30px;
     border-radius: 10px;
-    background-image: linear-gradient(45deg, #10899e,#c80ee0);
+    background-image: linear-gradient(45deg, #860b91,#392ceb);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.weather-container{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.leaflet-container {
+    height: 300px;
+    width: 550px;
+}
+
 
 .search-bar{
     display: flex;
@@ -15,7 +33,8 @@
 }
 
 .search-bar input{
-    height: 50px;
+    height: 40px;
+    width: 500px;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -26,7 +45,7 @@
 }
 
 .search-bar img{
-    width: 50px;
+    width: 45px;
     padding: 15px;
     border-radius: 50%;
     background: #ebfffc;
